@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Zweilt Web App Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+Zweilt is a web application designed to provide users with an intuitive interface for selecting job categories and specific job roles. This documentation provides an overview of the project's structure and key components.
 
-## Available Scripts
+## Project Structure
+The Zweilt web app is organized as follows:
 
-In the project directory, you can run:
+## Main Entry Point
+app.js: This is the landing page of the application. It imports and arranges various components that constitute the main sections of the website.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Components
+The components folder contains all the individual sections and reusable parts of the web app:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Header: The top navigation and branding section.
+Hero Section: The introductory section with a prominent call to action.
+Market Section: A section showcasing market-related content.
+Groove Section: A section highlighting key features or services.
+Accordion: An interactive section for FAQs or expandable content.
+Journey Section: A section detailing the user's journey or process flow.
+Zweilt Section: A dedicated section for company-specific information.
+FAQ Section: A section providing answers to frequently asked questions.
+Footer: The bottom section containing site links, copyright, and other footer content.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Assets
+The assets folder contains all images and other static resources used in the application. This includes:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+SVG Files: Predominantly used for images due to their scalability and performance benefits.
+Grouped Images: Images are grouped and organized within the assets folder to ensure easy access and maintainability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## State Management
+useState: This React hook is used for managing state within the application, ensuring a dynamic and responsive user experience.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Challenges
+Image Grouping
+Issue: Some challenges arose due to images not being grouped correctly.
+Solution: Ensure all images are properly grouped in the assets folder for better organization and easier maintenance.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Use of SVGs
+Benefit: SVGs are the best image format due to their scalability and performance benefits.
+Challenge: Properly managing and integrating SVGs within the application required meticulous organization and handling.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Mobile View
+Currently, the mobile view of the Zweilt web app displays a "Coming Soon" message, as the mobile UI is still under development.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Conclusion
+Zweilt is a well-structured web app designed to facilitate job selection processes. With a clear organization of components and efficient use of assets, it offers a seamless user experience. Further updates, including the mobile UI, are in progress to enhance the app's functionality and accessibility. Challenges such as image grouping and mobile view are being addressed to ensure a robust and user-friendly application.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
