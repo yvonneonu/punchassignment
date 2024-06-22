@@ -41,41 +41,46 @@ function App() {
   ];
 
   return (
-    <div className="lg:flex hidden mx-auto w-full">
-      <div className=" flex flex-col items-center w-full justify-center">
-        <Header />
+    <div>
+      <div className="lg:hidden flex justify-center h-screen items-center p-8 text-[34px] leading-[64px]">
+        Mobile version coming soon!. “Almost there!”
+      </div>
+      <div className="lg:flex hidden mx-auto w-full">
+        <div className=" flex flex-col items-center w-full justify-center">
+          <Header />
 
-        <Hero />
+          <Hero />
 
-        <img src={Union} alt="union" className="mt-8 w-full" />
-        <MarketPlace />
-        <Groove />
+          <img src={Union} alt="union" className="mt-8 w-full" />
+          <MarketPlace />
+          <Groove />
 
-        <section className="-skew-y-[2.9deg] w-full flex justify-center ">
-          <div class=" px-5 h-full pb-[150px] flex justify-center px-8 w-full">
-            <div className="max-w-[1300px] w-full mt-[155px] skew-y-[2.9deg] flex flex-row items-end justify-between">
-              <div className="w-[650px] ">
-                <div className="text-[54px] leading-[64px] font-switBold">
-                  How we ensure you’re in good hands.
+          <section className="-skew-y-[2.9deg] w-full flex justify-center ">
+            <div class=" px-5 h-full pb-[150px] flex justify-center px-8 w-full">
+              <div className="max-w-[1300px] w-full mt-[155px] skew-y-[2.9deg] flex flex-row items-end justify-between">
+                <div className="w-[650px] ">
+                  <div className="text-[54px] leading-[64px] font-switBold">
+                    How we ensure you’re in good hands.
+                  </div>
+                  <div className="mt-4 text-xl font-switReg">
+                    With our comprehensive screening process, we hand-pick
+                    highly skilled candidates so you can onboard them in a
+                    matter of days.
+                  </div>
+
+                  <Accordion items={accordionItems} />
                 </div>
-                <div className="mt-4 text-xl font-switReg">
-                  With our comprehensive screening process, we hand-pick highly
-                  skilled candidates so you can onboard them in a matter of
-                  days.
-                </div>
-
-                <Accordion items={accordionItems} />
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <Journey />
+          <Journey />
 
-        <Zwilt />
-        <Faq />
+          <Zwilt />
+          <Faq />
 
-        <Footer />
+          <Footer />
+        </div>
       </div>
     </div>
   );
